@@ -1,0 +1,81 @@
+.owl-theme {
+    .owl-pagination {
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        z-index: 22;
+
+        .owl-page {
+            display: inline-block;
+        }
+    
+        .owl-controls .owl-page span {
+            font-weight: 900;
+            width: 30px;
+            height: 2px;
+            border-radius: 0;
+            margin: 0 4px;
+            background-color: #202020;
+            display: none;
+            opacity: 1;
+        }
+    }    
+
+    .owl-buttons {
+        position: absolute;
+        bottom: 50%;
+        right: 0;
+        width: 100%;
+
+        div {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            color: $white;
+            background-color: rgba($white,.15);
+            text-align: center;
+            overflow: hidden;
+            display: inline-block;
+            font-size: 0;
+            width: 50px;
+            height: 50px;
+            transition: all .45s ease-in-out;
+
+            &.owl-prev,
+            &.owl-next {
+                border-radius: 100%;
+
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    color: $white;
+                    font-family: $fa-style-family;
+                    font-size: 30px;
+                    line-height: 48px;
+                    width: 100%;
+                    left: 0;
+                    right: 0;
+                }
+            }
+
+            &.owl-prev {
+                left: 20px;
+                
+                &:before {
+                    content: "\2039";                   
+                }
+            }
+
+            &.owl-next {
+                right: 20px;
+                
+                &:before {
+                    content: "\203a";                   
+                }
+            }
+        }
+    }
+}

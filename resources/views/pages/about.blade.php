@@ -11,11 +11,6 @@
 @endsection
 
 @section('content')
-
-	@include('includes.testimonial')
-
-	@include('includes.help')
-
 @endsection
 
 @section('modal')

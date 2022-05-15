@@ -25,13 +25,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel='canonical' href='{{url()->current()}}'/>
-    <link rel="manifest" href="manifest.json"/>
+    {{-- <link rel="manifest" href="manifest.json"/> --}}
+
     @include('includes.partials.favicon')
     {{-- @include('includes.partials.meta') --}}
 
     @yield('plugins-style')
+    
+    <!-- Slick CSS -->
+    {{-- <link rel="stylesheet" href="{{ mix('/css/slick.css') }}"> --}}
 
-    <link rel="stylesheet" href="{{ mix('/css/custom.css') }}" >
+    <!-- Custom + Bootstrap CSS -->
+    <link rel="stylesheet" href="{{ mix('/css/custom.css') }}">
     
     @yield('page-style')
 </head>

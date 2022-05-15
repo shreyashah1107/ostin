@@ -9,7 +9,7 @@
                 {{-- End of navigation --}}
 
                 <!-- body start -->
-                <main class="cd-main-content">
+                <main>
                     @yield('content')
                 </main>
                 <!-- body end -->
@@ -17,7 +17,6 @@
                 @include('includes.footer')
             </div>
         </div>
-        <div class="overlay"></div>
         @yield('modal')
         @yield('page-scripts')
     </body>

@@ -5,9 +5,6 @@
 @section('pageKeywords'){!! config('meta.contact.keywords') !!}@endsection
 
 @section('content')
-
-	@include('includes.testimonial')
-
 @endsection
 
 @section('modal')

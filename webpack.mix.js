@@ -34,7 +34,7 @@ mix.sass('resources/assets/sass/custom.scss', 'public/css')
     .version();
 
 // mix.scripts([
-//     'public/js/jquery-3.4.1.min',
+//     'public/js/jquery-3.6.0.min.js',
 //     'public/js/main.js',
 // ], 'public/js/all.js').version();
 

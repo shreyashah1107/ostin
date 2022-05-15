@@ -1,3 +1,23 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+// Font Awesome
+@import 'fonts/fontawesome';
+@import 'fonts/regular';
+@import 'fonts/light';
+@import 'fonts/solid';
+@import 'fonts/brands';
+
+// Custom variables
+@import 'variables';
+
+// Map override
+@import 'map';
+
+@import 'bootstrap/bootstrap';
+@import 'reboot';
+@import 'components';
+@import 'pages';
+
+@import 'vendor/owl-carousel';

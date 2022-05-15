@@ -1,0 +1,42 @@
+.hero-slider {
+    figure {
+        margin: 0;
+        position: relative;
+
+        .image {
+            min-height: 500px;
+            height: calc(100vh - 132px);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .owl-buttons {
+        bottom: 35%;
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .hero-slider {
+        figure {    
+            .image {
+                min-height: 100%;
+                height: 500px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .hero-slider {
+        figure {    
+            .image {
+                height: 300px;
+            }
+        }
+    }
+}

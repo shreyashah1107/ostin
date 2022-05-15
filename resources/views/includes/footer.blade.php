@@ -1,79 +1,100 @@
-<div class="footer section-padding">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-sm-6 col-lg-6 mb-4 mb-sm-0">
-                <h5 class="font-weight-bold">UK Office</h5>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <address class="mb-0">
-                            Barley Mow Centre <br>
-                            10 Barley Mow Passage, Chiswick <br> 
-                            London W4 4PH UK
-                        </address>
-                    </div>
-                    <div class="col-lg-6">
-                        <p>T : <a href="tel:+44 (0)20 3475 3135">+44 (0)20 3475 3135</a></p>
-                        <p>E : <a href="mailto:info@aecordigital.com" class="text-underline">info@aecordigital.com</a></p>
-                        <p><a href="https://goo.gl/maps/xKBPcZJzZ342" target="_blank" class="text-underline" rel="noreferrer">View office location</a> on Google Maps</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-lg-6">
-                <h5 class="font-weight-bold">Indian Office</h5>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <address class="mb-0">
-                            Kasper Square, Fourth Floor <br>
-                            Gotri-Laxmipura Road <br>
-                            Vadodara 390021<br>
-                            Gujarat, India
-                        </address>
-                    </div>
-                    <div class="col-lg-6">
-                        <p>E : <a href="mailto:info@aecordigital.com" class="text-underline">info@aecordigital.com</a></p>
-                        <p><a href="https://goo.gl/maps/SUNoGEsLjGDMFh1XA" target="_blank" class="text-underline" rel="noreferrer">View office location</a> on Google Maps</p>
+<footer>
+    <div class="footer-top-area">
+        <div class="container-fluid">
+            <div class="row">            
+                <div class="col-xl-5 col-md-6">
+                    <div class="footer-widget footer-about-widget">
+                        <div class="footer-logo">
+                            <div class="site-logo">
+                                <a href="{{ route('index') }}"><img src="{{ asset("./img/logo/logo.png") }}" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <p></p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sint dolores placeat eos deleniti repellendus porro iusto. Ex fugiat, iste distinctio aut ipsa mollitia quidem. Asperiores veniam voluptatibus aspernatur quis?</p>
+                        
+                        <div class="social-media">
+                            <ul>
+                                <li><a href="#!" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="#!" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#!" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#!" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
+                
+                <div class="col-xl-3 col-md-6">
+                    <div class="footer-widget footer-menu-widget">
+                        <h4 class="footer-title">Product Category</h4>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#" title="Category 1">Category 1</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl-3 col-md-6">
+                    <div class="footer-widget footer-menu-widget">
+                        <h4 class="footer-title">Contact Detail</h4>
+                        <div class="footer-address">
+                            <ul>
+                                <li>
+                                    <div class="footer-address-icon">
+                                        <i class="far fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="footer-address-info">
+                                        <p><strong>Register Office</strong><br>ABC Tower, Test Complex, Opp. Bank, Vadodara.</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-address-icon">
+                                        <i class="far fa-phone"></i>
+                                    </div>
+                                    <div class="footer-address-info">
+                                        <p><a href="tel:9999999999" title="tel:9999999999">+91-99999 99999</a></p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="footer-address-icon">
+                                        <i class="far fa-envelope"></i>
+                                    </div>
+                                    <div class="footer-address-info">
+                                        <p><a href="mailto:info@ostin.com" title="mailto:info@ostin.com">info@ostin.com</a><br><a href="mailto:ostin@gmail.com" title="mailto:ostin@gmail.com">ostin@gmail.com</a></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
             </div>
         </div>
-
-        <div class="section-divider"></div>
-
-        <div class="row justify-content-center text-center text-lg-left">
-            <div class="col-lg-6 order-2 order-lg-1 mt-4 mt-lg-0">
-                <p>© {{ date('Y') }} All rights reserved. Aecor Digital Limited, UK company number 10086693 </p>
-            </div>
-            <div class="col-lg-6 order-1 order-lg-2">
-                <div class="row justify-content-center">
-                    <div class="col-md-6 col-lg-6">
-                        <ul class="list-unstyled">
-                            <li>Services</li>
-                            <li><img src="{{ asset('img/controls/chevron-right-solid.svg') }}" alt="next"></li>
-                            <li><a href="/people">People</a></li>
-                            <li><img src="{{ asset('img/controls/chevron-right-solid.svg') }}" alt="next"></li>
-                            <li><a href="/process">Process</a></li>
-                            <li><img src="{{ asset('img/controls/chevron-right-solid.svg') }}" alt="next"></li>
-                            <li><a href="/projects">Projects</a></li>
-                            <li><img src="{{ asset('img/controls/chevron-right-solid.svg') }}" alt="next"></li>
-                            <li><a href="/outsourcing">Outsourcing</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 col-lg-6">
-                        <ul class="list-unstyled">
-                            <li><a href="/about">About us</a></li>
-                            <li><img src="{{ asset('img/controls/chevron-right-solid.svg') }}" alt="next"></li>
-                            <li><a href="/jobs">Jobs</a></li>
-                            <li><img src="{{ asset('img/controls/chevron-right-solid.svg') }}" alt="next"></li>
-                            <li><a href="/contact">Contact us</a></li>
-                        </ul>
+    </div>
+    <div class="copyright">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>© <script>document.write(new Date().getFullYear());</script> All Rights Reserved - Ostin</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-end">
+                        <p>Developed By - <a href="#" target="_blank"></a></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</footer>
 
-<script type="application/javascript" src="{{ mix('/js/main.js')}}"></script>
+<!-- Jquery -->
+<script src="{{ asset('/js/jquery-3.6.0.min.js')}}"></script>
+
+<!-- Bootstrap + Popper -->
+<script src="{{ asset('/js/bootstrap.bundle.min.js')}}"></script>
+
+<!-- Custom JS -->
+<script src="{{ asset('/js/main.js')}}"></script>
 
 
 @yield('plugins-scripts')
