@@ -20,6 +20,41 @@
     }
 }
 
+.hero {
+    position: relative;
+    padding: 130px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    &.hero-contact {
+        background-image: url('https://www.jaliyanfaucets.com/img/contact-inner-title.jpg');
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba($secondary, .6);
+    }
+
+    >* {
+        position: relative;
+        z-index: 1;
+    }
+
+    h1 {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 1;
+        font-family: $font-family-secondary;
+        color: $white;
+    }
+}
+
 @include media-breakpoint-down(xl) {
     .hero-slider {
         figure {    
@@ -37,6 +72,13 @@
             .image {
                 height: 300px;
             }
+        }
+    }
+    .hero {
+        padding: 80px 0;
+        
+        h1 {
+            font-size: 40px;
         }
     }
 }

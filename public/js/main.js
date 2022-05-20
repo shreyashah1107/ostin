@@ -1,4 +1,13 @@
 (function($) {
+    $(window).on('scroll',function(event) {
+        var scroll = $(window).scrollTop();
+        if (scroll < 245) {
+            $("header").removeClass("sticky");
+        } else {
+            $("header").addClass("sticky");
+        }
+    });
+
     var size;
 
     function windowSize() {

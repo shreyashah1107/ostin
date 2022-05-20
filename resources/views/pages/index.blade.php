@@ -78,7 +78,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="section-title">Choose Category You're Interested In</h1>
+                        <h1 class="section-title">Choose Category</h1>
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@
                             <div class="category-content">
                                 <div class="title">P.T.M.T.<br>Faucets</div>
                                 <div class="view-more-link">
-                                    <a href="#" title="View More">View More</a>
+                                    <a href="#" title="View More" class="btn btn-primary-alt">View More</a>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                             <div class="category-content">
                                 <div class="title">Cisterns</div>
                                 <div class="view-more-link">
-                                    <a href="#" title="View More">View More</a>
+                                    <a href="#" title="View More" class="btn btn-primary-alt">View More</a>
                                 </div>
                             </div>
                         </div>                    
@@ -122,7 +122,7 @@
                             <div class="category-content">
                                 <div class="title">Showers</div>
                                 <div class="view-more-link">
-                                    <a href="#" title="View More">View More</a>
+                                    <a href="#" title="View More" class="btn btn-primary-alt">View More</a>
                                 </div>
                             </div>
                         </div>
@@ -133,11 +133,11 @@
     {{-- End: Collection --}}
 
     {{-- Start: Product Listing --}}
-        <section class="product-listing section-padding">
+        <section class="product-listing">
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="section-title">Optimum Products</h1>
+                        <h1 class="section-title text-white">Optimum Products</h1>
                     </div>
                 </div>
 
@@ -159,7 +159,7 @@
                                     <h2>
                                         <a href="#">CENTER HOLE BASIN MIXER</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -182,7 +182,7 @@
                                     <h2>
                                         <a href="#">EDGE PRIME BIB COCK</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -205,7 +205,7 @@
                                     <h2>
                                         <a href="#">SINGLE LEVER BASIN MIXER TALL BODY</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -228,7 +228,7 @@
                                     <h2>
                                         <a href="#">SUPERB BIB COCK</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -251,7 +251,7 @@
                                     <h2>
                                         <a href="#">CENTER HOLE BASIN MIXER</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -274,7 +274,7 @@
                                     <h2>
                                         <a href="#">EDGE PRIME BIB COCK</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -297,7 +297,7 @@
                                     <h2>
                                         <a href="#">SINGLE LEVER BASIN MIXER TALL BODY</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  
@@ -320,7 +320,7 @@
                                     <h2>
                                         <a href="#">SUPERB BIB COCK</a>
                                     </h2>
-                                    <a href="#" title="View More" class="btn btn-primary">
+                                    <a href="#" title="View More" class="btn btn-primary-alt">
                                         VIEW MORE
                                     </a>
                                 </div>  

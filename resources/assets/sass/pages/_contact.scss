@@ -1,0 +1,77 @@
+.contact-address-area {
+    padding: 100px 0;
+
+    .contact-address {
+        &-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+    }
+
+    .card-contact {
+        text-align: center;
+        height: 100%;
+        border: 2px solid #ededed;
+        padding: 50px 30px 25px;
+
+        .icon {
+            margin-bottom: 35px;
+            color: $primary-alt;
+        }
+
+        h3 {
+            font-family: $font-family-secondary;
+            font-weight: 700;
+        }
+    }
+}
+
+.contact-message-area {
+    padding-bottom: 100px;
+
+    @at-root {
+        .contact-form-box {
+            padding: 40px 50px 50px;
+            position: relative;
+            background-color: $white;
+            border: 2px solid #ededed;
+            z-index: 1;
+
+            h4 {
+                margin-bottom: 30px;
+                font-size: 26px;
+                font-weight: 700;
+                font-family: $font-family-secondary;
+            }    
+            
+            .btn {
+                padding: 20px 40px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .contact-address-area {
+        .card-contact {
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .contact-address-area {
+        .contact-address {
+            &-grid {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+    }
+
+    .contact-form-box {
+        padding: 40px 25px 50px;
+    }
+}

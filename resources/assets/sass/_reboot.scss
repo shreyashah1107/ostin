@@ -28,18 +28,18 @@ ol {
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.4;
     margin-bottom: 50px;
 }
 
 @include media-breakpoint-down(md) {
     .section-padding {
-        padding: 50px 0;
+        padding: 70px 0;
     }
 
     .section-title {
-        font-size: 22px;
-        margin-bottom: 30px;
+        font-size: 30px;
+        margin-bottom: 50px;
     }
 }

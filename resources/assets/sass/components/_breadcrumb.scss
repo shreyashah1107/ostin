@@ -1,0 +1,25 @@
+.breadcrumb {
+    margin: 0;
+
+    .breadcrumb-item {
+        font-weight: 700;
+
+        a {
+            color: $white;
+
+            &:hover {
+                color: $body-color;
+            }
+        }
+
+        &.active {
+            color: #CCCCCC;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .breadcrumb {
+        font-size: 14px;
+    }
+}

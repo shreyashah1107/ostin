@@ -1,9 +1,7 @@
 .footer-top-area {
     padding-top: 92px;
     padding-bottom: 20px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
+    background-color: #040919;
 
     .footer-widget {
         margin-bottom: 60px;
@@ -13,6 +11,7 @@
             margin-bottom: 25px;
             font-family: $font-family-secondary;
             font-weight: 700;
+            color: $white;
             line-height: 1.3;
         }
     }
@@ -27,9 +26,7 @@
     .footer-menu ul {
         li {
             list-style: none;
-            margin-top: 0px;
-            margin-bottom: 15px;
-            position: relative;
+            margin-bottom: 10px;
         }
     }
 
@@ -51,7 +48,7 @@
     }
 
     p {
-        color: $body-color;
+        color: #aaaaaa;
         margin-bottom: 30px;
     }
 
@@ -72,6 +69,7 @@
             .footer-address-icon {
                 float: left;
                 margin-right: 15px;
+                color: #d11010;
             }
 
             .footer-address-info {
@@ -85,23 +83,33 @@
     }
 
     a {
+        color: #aaaaaa;
+
         &:hover {
-            color: $primary;
+            color: $white;
         }
     }
 }
 
 .copyright {
-    background-color: #111212;
-    padding: 30px 5%;
+    background-color: $secondary;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     p {
         color: $white;
         margin: 0;
+        font-size: 14px;
     }
 }
 
 @include media-breakpoint-up(lg) {
+    .footer-top-area,
+    .copyright {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .footer-about-widget {
         padding-right: 35px;
     }

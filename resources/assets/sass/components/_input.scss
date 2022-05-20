@@ -1,0 +1,71 @@
+::-webkit-input-placeholder {
+    color: #8cb2b2;
+    font-size: 14px;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #8cb2b2;
+    font-size: 14px;
+  }
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #8cb2b2;
+    font-size: 14px;
+}
+  
+::placeholder {
+    color: #8cb2b2;
+    font-size: 14px;
+}
+
+.input-item {
+    position: relative;
+
+    .form-control {
+        border: 2px solid #e4ecf2;
+        height: 65px;
+        box-shadow: none;
+        padding-left: 20px;
+        font-size: 16px;
+        color: $body-color;
+        margin-bottom: 30px;
+        border-radius: 0;
+        padding-right: 40px;
+    }
+
+    &.has-icon {
+        &::before {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 20px;
+            color: $primary-alt;
+            font-family: 'Font Awesome 6 Pro';
+            font-weight: 900;
+        }
+
+        &.input-item-name::before {
+            content: "\f007";
+        }
+
+        &.input-item-email::before {
+            content: "\f0e0";
+        }
+
+        &.input-item-phone::before {
+            content: "\f095";
+        }        
+
+        &.input-item-company-name::before {
+            content: "\f275";
+        }
+
+        &.input-item-city::before {
+            content: "\f041";
+        }
+
+        &.input-item-state::before {
+            content: "\f041";
+        }
+    }
+}

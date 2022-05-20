@@ -6,10 +6,11 @@
                     <div class="footer-widget footer-about-widget">
                         <div class="footer-logo">
                             <div class="site-logo">
-                                <a href="{{ route('index') }}"><img src="{{ asset("./img/logo/logo.png") }}" alt="Logo"></a>
+                                <a href="{{ route('index') }}">
+                                    <img src="{{ asset("./img/logo/logo.png") }}" alt="Logo">
+                                </a>
                             </div>
                         </div>
-                        <p></p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex sint dolores placeat eos deleniti repellendus porro iusto. Ex fugiat, iste distinctio aut ipsa mollitia quidem. Asperiores veniam voluptatibus aspernatur quis?</p>
                         
                         <div class="social-media">
@@ -23,11 +24,16 @@
                     </div>
                 </div>
                 
-                <div class="col-xl-3 col-md-6">
+                <div class="col-xl-3 offset-xl-0 col-md-5 offset-md-1">
                     <div class="footer-widget footer-menu-widget">
                         <h4 class="footer-title">Product Category</h4>
                         <div class="footer-menu">
                             <ul>
+                                <li><a href="#" title="Category 1">Category 1</a></li>
+                                <li><a href="#" title="Category 1">Category 1</a></li>
+                                <li><a href="#" title="Category 1">Category 1</a></li>
+                                <li><a href="#" title="Category 1">Category 1</a></li>
+                                <li><a href="#" title="Category 1">Category 1</a></li>
                                 <li><a href="#" title="Category 1">Category 1</a></li>
                             </ul>
                         </div>

@@ -1,0 +1,31 @@
+.btn {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out;
+
+    &.btn-primary-alt {
+        background-color: $primary-alt;
+        color: $white;
+        border-color: $primary-alt;
+
+        &:hover {
+            background-color: rgba($primary-alt, 0.5);
+            color: $white;
+            border-color: transparent;
+        }
+    }
+
+    &.btn-secondary {
+        background-color: $secondary;
+        color: $white;
+        border-color: inherit;
+
+        &:hover {
+            background-color: $body-color;
+            color: $white;
+        }
+    }
+}
