@@ -24,3 +24,15 @@ Route::get('about-us', function () {
 Route::get('contact-us', function () {
     return view('pages.contact');
 })->name('contact-us');
+
+Route::get('distributor-form', function () {
+    return view('pages.forms.distributor');
+})->name('distributor-form');
+
+Route::get('dealer-form', function () {
+    return view('pages.forms.dealer');
+})->name('dealer-form');
+
+Route::get('plumber-form', function () {
+    return view('pages.forms.plumber');
+})->name('plumber-form');

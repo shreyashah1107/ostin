@@ -1,5 +1,5 @@
 .contact-address-area {
-    padding: 100px 0;
+    padding-top: 100px;
 
     .contact-address {
         &-grid {
@@ -28,7 +28,7 @@
 }
 
 .contact-message-area {
-    padding-bottom: 100px;
+    padding: 100px 0;
 
     @at-root {
         .contact-form-box {

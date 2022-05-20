@@ -74,9 +74,9 @@
                                             <li class="menu-item menu-item-has-children">
                                                 <a href="#" title="Forms">Forms</a>
                                                 <ul class="sub-menu">
-                                                    <li class="menu-item"><a href="#" title="Distributor Form">Distributor Form</a></li>
-                                                    <li class="menu-item"><a href="#" title="Dealor Form">Dealor Form</a></li>
-                                                    <li class="menu-item"><a href="#" title="Plumber Form">Plumber Form</a></li>
+                                                    <li class="menu-item"><a href="{{ route('distributor-form') }}" title="Distributor Form">Distributor Form</a></li>
+                                                    <li class="menu-item"><a href="{{ route('dealer-form') }}" title="Dealer Form">Dealer Form</a></li>
+                                                    <li class="menu-item"><a href="{{ route('plumber-form') }}" title="Plumber Form">Plumber Form</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item"><a href="{{ route('contact-us') }}" title="Contact Us">Contact Us</a></li>

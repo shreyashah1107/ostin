@@ -52,6 +52,18 @@
             content: "\f0e0";
         }
 
+        &.input-item-address::before {
+            content: "\f041";
+        }
+
+        &.input-item-gst::before {
+            content: "\f063";
+        }
+
+        &.input-item-whatsapp::before {
+            content: "\f3cd";
+        }
+
         &.input-item-phone::before {
             content: "\f095";
         }        
