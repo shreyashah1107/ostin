@@ -84,7 +84,7 @@
                                     </div>
                                 </div>
                                 <div class="download-link">
-                                    <a href="#" target="_blank" title="Download Brochure">get A BROCHURE</a>
+                                    <a href="#" target="_blank" title="Download Brochure" data-bs-toggle="modal" data-bs-target="#downloadBrochureModal">get A BROCHURE</a>
                                 </div>
                                 <div class="hamburger-menu">
                                     <div class="bar"></div>

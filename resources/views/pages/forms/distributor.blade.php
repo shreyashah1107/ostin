@@ -97,7 +97,7 @@
                                 </div>
                                 
                                 <div class="btn-wrapper">
-                                    <button class="btn btn-secondary" type="submit">Submit Now</button>
+                                    <button class="btn btn-primary-alt" type="submit">Submit Now</button>
                                 </div>
                             </form>
                         </div>

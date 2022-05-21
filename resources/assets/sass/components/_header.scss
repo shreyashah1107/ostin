@@ -14,13 +14,13 @@
 }
 
 header {
-    z-index: 9999;
+    z-index: 3;
     position: relative; 
 
     .topbar {
 		padding: 10px ; 
 		color: $white;
-		background: $secondary;
+		background: #333;
 
 		&-menu {
 			ul {
@@ -100,7 +100,8 @@ header {
 					white-space: nowrap;
 					color: #071c1f;
 
-					&:hover {
+					&:hover,
+					&.active {
 						color: $primary;
 					}
 				}
@@ -155,6 +156,11 @@ header {
 										top: 50%;
 										right: 10px;
 										transform: translateY(-50%);
+									}
+
+									&.active {
+										color: #484848;
+										background-color: #f7f7f7;		
 									}
 								}
 

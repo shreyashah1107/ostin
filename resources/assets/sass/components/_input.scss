@@ -33,6 +33,10 @@
         padding-right: 40px;
     }
 
+    textarea {
+        min-height: 150px;
+    }
+
     &.has-icon {
         &::before {
             position: absolute;
@@ -78,6 +82,11 @@
 
         &.input-item-state::before {
             content: "\f041";
+        }
+
+        &.input-item-message::before {
+            content: "\f303";
+            top: 20px;
         }
     }
 }

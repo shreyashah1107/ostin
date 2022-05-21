@@ -31,6 +31,10 @@
         background-image: url('/img/hero/contact-banner.jpg');
     }
 
+    &.hero-about {
+        background-image: url('/img/hero/about-banner.jpg');
+    }
+
     &::before {
         position: absolute;
         content: "";
@@ -38,7 +42,7 @@
         top: 0;
         height: 100%;
         width: 100%;
-        background-color: rgba($secondary, .6);
+        background-color: rgba($body-color, .6);
     }
 
     >* {

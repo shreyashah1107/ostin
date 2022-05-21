@@ -37,7 +37,7 @@
                             </div>
                             <div class="content">
                                 <h3>Register Office</h3>
-                                <p>C/4/B, (Basement) Austvinayak Complex, Opp. Kotak Mahindra Bank, Dariyapur, Ahmedabad.</p>
+                                <p>ABC Tower, Test Complex, Opp. Bank, Vadodara.</p>
                             </div>
                         </div>
                     </div>
@@ -49,7 +49,7 @@
                             </div>
                             <div class="content">
                                 <h3>Factory Address</h3>
-                                <p>Plot No. 32-72 Star Industrial Park, Opp. Gopalcharan Industrial Park, Bakrol, Ahmedabad -382 430 (Guj).</p>
+                                <p>ABC Tower, Test Complex, Opp. Bank, Vadodara.</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                             </div>
                             <div class="content">
                                 <h3>Mobile</h3>
-                                <p>+91-94280 18922</p>
+                                <p>+91-99999 99999</p>
                             </div>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
                                 </div>
                                 
                                 <div class="btn-wrapper">
-                                    <button class="btn btn-secondary" type="submit">Submit Now</button>
+                                    <button class="btn btn-primary-alt" type="submit">Submit Now</button>
                                 </div>
                             </form>
                         </div>

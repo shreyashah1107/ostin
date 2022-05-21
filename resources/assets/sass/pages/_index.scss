@@ -115,7 +115,6 @@
                 font-weight: 600;
                 overflow: hidden;
                 max-height: 2.5em;
-                color: $white;
                 text-transform: uppercase;
             }
         }
@@ -124,6 +123,7 @@
     .owl-prev,
     .owl-next {
         margin-top: -40px;
+        background-color: $primary-alt !important;
     }
 
     @include media-breakpoint-up(xl) {

@@ -1,0 +1,177 @@
+.about {
+    padding: 100px 0;
+
+    .sidebar {
+        position: sticky;
+        top: 120px;
+    }
+
+    .client-feedback {
+        width: 100%;
+        margin-top: 20px;
+
+        a {
+            display: block;
+            background-color: $body-color;
+            color: $white;
+            padding: 12px 30px;
+
+            &:hover {
+                background-color: $primary-alt;
+            }
+        }
+    }
+
+    .nav-tabs {
+        background-color: #f9f9f9;
+        margin-bottom: 40px;       
+
+        .nav-item {
+            .nav-link {
+                display: block;
+                width: 100%;
+                border: 0;
+                text-align: right;
+                position: relative;
+                color: #101522;
+                font-size: 18px;
+                letter-spacing: 0.5px;
+
+                &.active {
+                    background-color: #525252;
+                    color: $white;
+                }
+
+                span {
+                    position: relative;
+                    z-index: 2;
+                }                
+            }
+        }        
+
+        @include media-breakpoint-up(lg) {
+            padding: 40px 0;
+            margin-bottom: 0;
+            border-bottom: 0;
+
+            .nav-item {
+                .nav-link {
+                    &::before {
+                        content: "\203a";
+                        font-family: "Font Awesome 6 Pro";
+                        position: absolute;
+                        left: 25px;
+                        top: 0;
+                        bottom: 0;
+                        width: 0;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        opacity: 1;
+                        transition: all 0.4s ease 0s;
+                        overflow: hidden;
+                        z-index: 1;
+                        background: #525252;
+                        color: $white;
+                    }
+
+                    &.active {
+                        background-color: #f9f9f9;
+                    }
+
+                    &.active,
+                    &:hover {
+                        border: 0;
+                        color: $white;
+
+                        &::before {
+                            width: 100%;
+                            padding-right: 20px;
+                        }
+                    }
+                }
+
+                +.nav-item {
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+
+    .tab-content {
+        h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: $font-family-secondary;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 30px;
+        }
+
+        img {
+            border: 1px solid #ccc;
+            margin-bottom: 40px;
+        }
+
+        .list-certificates {
+            li {
+                padding: 10px 0;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: #bb0706;
+
+                    i {
+                        font-size: 24px;
+                        color: #bb0706;
+                        margin-right: 10px;
+                    }
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }            
+        }
+
+        .image {
+            padding: 20px 0 40px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #f1f1f1;
+
+            img {
+                max-width: 100%;
+                margin-bottom: 0;
+            }
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+
+            @include media-breakpoint-down(md) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .gallery-col {
+                height: 300px;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                margin: 0;
+            }
+        }
+    }
+}

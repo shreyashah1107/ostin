@@ -6,13 +6,19 @@
     padding: 10px 20px;
     transition: all .3s ease-in-out;
 
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: inherit;
+    }
+
     &.btn-primary-alt {
         background-color: $primary-alt;
         color: $white;
         border-color: $primary-alt;
 
         &:hover {
-            background-color: rgba($primary-alt, 0.5);
+            background-color: #c00;
             color: $white;
             border-color: transparent;
         }
