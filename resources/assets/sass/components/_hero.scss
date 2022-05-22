@@ -35,6 +35,10 @@
         background-image: url('/img/hero/about-banner.jpg');
     }
 
+    &.hero-products {
+        background-image: url('/img/hero/products-banner.jpg');
+    }
+
     &::before {
         position: absolute;
         content: "";

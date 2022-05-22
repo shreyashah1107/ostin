@@ -21,6 +21,22 @@ Route::get('about-us', function () {
     return view('pages.about');
 })->name('about-us');
 
+Route::get('products', function () {
+    return view('pages.products.product');
+})->name('products');
+
+Route::get('product-category', function () {
+    return view('pages.products.product-category');
+})->name('product-category');
+
+Route::get('product-subcategory', function () {
+    return view('pages.products.product-subcategory');
+})->name('product-subcategory');
+
+Route::get('product-details', function () {
+    return view('pages.products.product-details');
+})->name('product-details');
+
 Route::get('contact-us', function () {
     return view('pages.contact');
 })->name('contact-us');

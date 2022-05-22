@@ -146,7 +146,7 @@
 @endsection
 
 @section('modal')
-    <!-- Download Brochure Modal -->
+    <!-- Client Feedback Modal -->
     <div class="modal fade" id="clientFeedbackModal" tabindex="-1" aria-labelledby="clientFeedbackModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">

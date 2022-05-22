@@ -49,24 +49,24 @@
                                             <li class="menu-item"><a href="{{ route('index') }}" title="Home">Home</a></li>                                        
                                             <li class="menu-item"><a href="{{ route('about-us') }}" title="About Us">About Us</a></li>                                        
                                             <li class="menu-item menu-item-has-children">
-                                                <a href="#" title="Product">Product</a>
+                                                <a href="{{ route('products') }}" title="Product">Product</a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item menu-item-has-children">
-                                                        <a href="#" title="Category 1">Category 1</a>
+                                                        <a href="{{ route('product-category') }}" title="Category 1">Category 1</a>
 
                                                         <ul class="sub-menu">
-                                                            <li class="menu-item"><a href="#" title="Sub Category 1">Sub Category 1</a></li>
-                                                            <li class="menu-item"><a href="#" title="Sub Category 1">Sub Category 1</a></li>
-                                                            <li class="menu-item"><a href="#" title="Sub Category 1">Sub Category 1</a></li>
+                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 1">Sub Category 1</a></li>
+                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 1">Sub Category 1</a></li>
+                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 1">Sub Category 1</a></li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item menu-item-has-children">
-                                                        <a href="#" title="Category 2">Category 2</a>
+                                                        <a href="{{ route('product-category') }}" title="Category 2">Category 2</a>
 
                                                         <ul class="sub-menu">
-                                                            <li class="menu-item"><a href="#" title="Sub Category 2">Sub Category 2</a></li>
-                                                            <li class="menu-item"><a href="#" title="Sub Category 2">Sub Category 2</a></li>
-                                                            <li class="menu-item"><a href="#" title="Sub Category 2">Sub Category 2</a></li>
+                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 2">Sub Category 2</a></li>
+                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 2">Sub Category 2</a></li>
+                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 2">Sub Category 2</a></li>
                                                         </ul>
                                                     </li>
                                                 </ul>

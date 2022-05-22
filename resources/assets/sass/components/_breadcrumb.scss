@@ -8,12 +8,16 @@
             color: $white;
 
             &:hover {
-                color: $body-color;
+                opacity: 0.8;
             }
         }
 
         &.active {
             color: #CCCCCC;
+        }
+
+        + .breadcrumb-item::before {
+            color: $white;
         }
     }
 }

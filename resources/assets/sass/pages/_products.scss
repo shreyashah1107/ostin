@@ -1,0 +1,192 @@
+.product {
+    padding: 100px 0;
+
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));;
+        gap: 30px;
+
+        .card-product .content h2 {
+            @extend .text-truncate;
+        }
+    }
+
+    &-category-tab {
+        .title {
+            background-color: $primary-alt;
+            color: $white;
+            padding: 10px 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            margin-bottom: 30px;
+            .nav-item {
+                padding: 5px 0;
+                float: left;
+                width: 100%;
+                transition: all 0.3s ease 0s;
+
+                .nav-link {
+                    position: relative;
+                    font-size: 15px;
+                    line-height: 1.4;
+                    font-weight: 400;
+                    padding: 10px 20px 10px 40px;
+                    color: $body-color;
+                    letter-spacing: .5px;
+                    width: 100%;
+                    text-align: left;
+                    text-transform: uppercase;
+
+                    &::before {
+                        content: '\203a';
+                        position: absolute;
+                        left: 20px;
+                        font-family: 'Font Awesome 6 Pro';
+                        font-size: 14px;
+                    }
+
+                    &.active {
+                        background-color: transparent;
+                    }
+
+                    &:hover {
+                        background-color: #eee;
+                    }
+                }
+
+                &:hover {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+
+    &-details {
+        padding-top: 100px;
+        border-top: 1px solid #eee;
+
+        .thumbnail-img {
+            height: 425px;
+            padding: 30px;
+            margin-bottom: 20px;
+            background-color: $white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+                transition: transform .5s ease-in;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+            +a {
+                display: inline-block;
+
+                img {
+                    height: 50px;
+                }
+            }
+        }
+
+        h1 {
+            font-family: $font-family-secondary;
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .details {
+            display: flex;
+            margin: 5px 0;
+
+            label {
+                font-weight: bold;
+                margin-right: 5px;
+                white-space: nowrap;
+            }
+
+            p {
+                margin: 0;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+        }
+    }
+}
+
+.product-detail-modal {
+    .image {
+        margin-bottom: 30px;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .title {
+        color: $body-color;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1;
+    
+    }
+
+    .title-small {
+        color: #ff0000;
+        font-weight: 700;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .table {
+        margin-top: 20px;
+
+        th {
+            background-color: $body-color;
+            color: $white;
+        }
+
+        th,
+        td {
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    .product {
+        &-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .product {
+        &-grid {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        &-details {
+            .thumbnail-img {
+                height: 250px;
+            }
+        }
+    }
+}
