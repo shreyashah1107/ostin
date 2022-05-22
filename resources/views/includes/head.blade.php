@@ -37,6 +37,9 @@
 
     <!-- Custom + Bootstrap CSS -->
     <link rel="stylesheet" href="{{ mix('/css/custom.css') }}">
+
+    {{-- Animation --}}
+    <link rel="stylesheet" href="{{ asset('/css/animate.css') }}">
     
     @yield('page-style')
 </head>

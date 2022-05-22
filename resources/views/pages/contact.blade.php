@@ -7,13 +7,13 @@
 @section('content')
     {{-- Start: Hero --}}
         <section class="hero hero-contact">
-            <div class="container">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
                 <div class="row">
                     <div class="col-12">
                         <div class="d-md-flex align-items-center justify-content-between">
-                            <h1>Contact Us</h1>
+                            <h1 class="wow slideInDown" data-wow-delay="0.1s">Contact Us</h1>
 
-                            <nav aria-label="breadcrumb">
+                            <nav aria-label="breadcrumb" class="wow fadeInUp" data-wow-delay="0.1s">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="{{ route('index') }}" title="Home">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
@@ -30,7 +30,7 @@
         <section class="contact-address-area">
             <div class="container">
                 <div class="contact-address-grid">
-                    <div class="contact-address-col">
+                    <div class="contact-address-col wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card-contact">
                             <div class="icon">
                                 <i class="far fa-map-marked-alt fa-3x"></i>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-address-col">
+                    <div class="contact-address-col wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card-contact">
                             <div class="icon">
                                 <i class="far fa-map-marked-alt fa-3x"></i>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-address-col">
+                    <div class="contact-address-col wow fadeInUp" data-wow-delay="0.5s">
                         <div class="card-contact">
                             <div class="icon">
                                 <i class="far fa-phone fa-3x"></i>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
 
-                    <div class="contact-address-col">
+                    <div class="contact-address-col wow fadeInUp" data-wow-delay="0.7s">
                         <div class="card-contact">
                             <div class="icon">
                                 <i class="far fa-envelope-open-text fa-3x"></i>
@@ -87,7 +87,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="contact-form-box">
+                        <div class="contact-form-box wow fadeInUp" data-wow-delay="0.1s">
                             <h4>Get A Quote</h4>
                             <form id="contact-form" method="post" action="">
                                 <div class="row">

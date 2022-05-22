@@ -1,7 +1,7 @@
 <header class="header">
     <!-- Start: Top bar -->
         <div class="topbar">
-            <div class="container">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
                 <div class="row align-items-center">
                     <div class="col-md-9">
                         <div class="topbar-menu">
@@ -29,7 +29,7 @@
 
     {{-- Start: Main Menu --}}
         <div class="menu-links-wrapper">
-            <div class="container-lg">
+            <div class="container-lg wow fadeIn" data-wow-delay="0.1s">
                 <div class="position-relative">
                     <div class="row align-items-center justify-content-between">
                         <div class="col-auto">

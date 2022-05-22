@@ -7,13 +7,13 @@
 @section('content')
     {{-- Start: Hero --}}
         <section class="hero hero-about">
-            <div class="container">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
                 <div class="row">
                     <div class="col-12">
                         <div class="d-md-flex align-items-center justify-content-between">
-                            <h1>About Us</h1>
+                            <h1 class="wow slideInDown" data-wow-delay="0.1s">About Us</h1>
 
-                            <nav aria-label="breadcrumb">
+                            <nav aria-label="breadcrumb" class="wow fadeInUp" data-wow-delay="0.1s">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="{{ route('index') }}" title="Home">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">About Us</li>
@@ -31,7 +31,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-xl-3">
-                        <div class="sidebar">
+                        <div class="sidebar wow slideInUp" data-wow-delay="0.1s">
                             <ul class="nav nav-tabs flex-lg-column" id="aboutTab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true"><span>Profile</span></button>
@@ -56,41 +56,41 @@
                     <div class="col-lg-8 col-xl-8 offset-xl-1 ps-lg-5 ps-xl-0">
                         <div class="tab-content" id="aboutTabContent">
                             <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                <h2>PROFILE</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eum provident totam veniam voluptatibus ab perferendis laboriosam, fuga et tenetur molestias, quam obcaecati temporibus beatae eaque deleniti cum, voluptate unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptate ad hic quidem perspiciatis voluptates? Asperiores odit velit laudantium! Temporibus alias nostrum incidunt excepturi explicabo dignissimos non dolorem aliquid asperiores.</p>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.1s">PROFILE</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eum provident totam veniam voluptatibus ab perferendis laboriosam, fuga et tenetur molestias, quam obcaecati temporibus beatae eaque deleniti cum, voluptate unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptate ad hic quidem perspiciatis voluptates? Asperiores odit velit laudantium! Temporibus alias nostrum incidunt excepturi explicabo dignissimos non dolorem aliquid asperiores.</p>
                                        
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem doloribus, voluptate deserunt iste inventore, natus ullam ab libero illum architecto labore similique facilis! Maiores enim asperiores ab exercitationem aperiam.</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.1s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem doloribus, voluptate deserunt iste inventore, natus ullam ab libero illum architecto labore similique facilis! Maiores enim asperiores ab exercitationem aperiam.</p>
 
-                                <img src="{{ asset("./img/hero/about-banner.jpg") }}" class="img-fluid" alt="Banner">
+                                <img src="{{ asset("./img/hero/about-banner.jpg") }}" class="img-fluid wow fadeInUp" data-wow-delay="0.1s" alt="Banner">
 
-                                <h3>Technical Edge</h3>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.1s">Technical Edge</h3>
 
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem doloribus, voluptate deserunt iste inventore, natus ullam ab libero illum architecto labore similique facilis! Maiores enim asperiores ab exercitationem aperiam.</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.1s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem doloribus, voluptate deserunt iste inventore, natus ullam ab libero illum architecto labore similique facilis! Maiores enim asperiores ab exercitationem aperiam.</p>
 
-                                <h3>Trust, Value & Commitment</h3>
+                                <h3 class="wow fadeInUp" data-wow-delay="0.1s">Trust, Value & Commitment</h3>
 
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eum provident totam veniam voluptatibus ab perferendis laboriosam, fuga et tenetur molestias, quam obcaecati temporibus beatae eaque deleniti cum, voluptate unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptate ad hic quidem perspiciatis voluptates? Asperiores odit velit laudantium! Temporibus alias nostrum incidunt excepturi explicabo dignissimos non dolorem aliquid asperiores.</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eum provident totam veniam voluptatibus ab perferendis laboriosam, fuga et tenetur molestias, quam obcaecati temporibus beatae eaque deleniti cum, voluptate unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptate ad hic quidem perspiciatis voluptates? Asperiores odit velit laudantium! Temporibus alias nostrum incidunt excepturi explicabo dignissimos non dolorem aliquid asperiores.</p>
                                        
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem doloribus, voluptate deserunt iste inventore, natus ullam ab libero illum architecto labore similique facilis! Maiores enim asperiores ab exercitationem aperiam.</p>
+                                <p class="wow fadeInUp" data-wow-delay="0.1s">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolorem doloribus, voluptate deserunt iste inventore, natus ullam ab libero illum architecto labore similique facilis! Maiores enim asperiores ab exercitationem aperiam.</p>
                             </div>
                             <div class="tab-pane fade" id="certificate" role="tabpanel" aria-labelledby="certificate-tab">
-                                <h2>certificate</h2>
-                                <p>Click here for details.</p>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.1s">certificate</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.1s">Click here for details.</p>
 
                                 <ul class="list-unstyled list-certificates">
-                                    <li>
+                                    <li class="wow fadeInUp" data-wow-delay="0.1s">
                                         <a href="" download="">
                                             <i class="fas fa-file-pdf"></i> 
                                             <span title="Certificate 1: IS 2548">Certificate 1: IS 2548</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="wow fadeInUp" data-wow-delay="0.2s">
                                         <a href="" download="">
                                             <i class="fas fa-file-pdf"></i> 
                                             <span title="Certificate 2: IS 2548">Certificate 2: IS 2548</span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="wow fadeInUp" data-wow-delay="0.3s">
                                         <a href="" download="">
                                             <i class="fas fa-file-pdf"></i> 
                                             <span title="Certificate 3: IS 2548">Certificate 3: IS 2548</span>
@@ -99,40 +99,40 @@
                                 </ul>
                             </div>
                             <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
-                                <h2>vision</h2>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.1s">vision</h2>
 
-                                <div class="image">
+                                <div class="image wow fadeInUp" data-wow-delay="0.1s">
                                     <img src="{{ asset("./img/hero/about-banner.jpg") }}" alt="Image 1">
                                 </div>
 
-                                <div class="image">
+                                <div class="image wow fadeInUp" data-wow-delay="0.2s">
                                     <img src="{{ asset("./img/hero/slide3.jpg") }}" alt="Image 2">
                                 </div>
 
-                                <div class="image">
+                                <div class="image wow fadeInUp" data-wow-delay="0.3s ">
                                     <img src="{{ asset("./img/hero/slide1.jpg") }}" alt="Image 3">
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
-                                <h2>gallery</h2>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.1s">gallery</h2>
 
                                 <div class="gallery-grid">
-                                    <div class="gallery-col">
+                                    <div class="gallery-col wow fadeInUp" data-wow-delay="0.1s">
                                         <img src="{{ asset("./img/hero/slide3.jpg") }}" alt="Image">
                                     </div>
-                                    <div class="gallery-col">
+                                    <div class="gallery-col wow fadeInUp" data-wow-delay="0.2s">
                                         <img src="{{ asset("./img/hero/slide2.jpg") }}" alt="Image">
                                     </div>
-                                    <div class="gallery-col">
+                                    <div class="gallery-col wow fadeInUp" data-wow-delay="0.3s">
                                         <img src="{{ asset("./img/hero/slide1.jpg") }}" alt="Image">
                                     </div>
-                                    <div class="gallery-col">
+                                    <div class="gallery-col wow fadeInUp" data-wow-delay="0.4s">
                                         <img src="{{ asset("./img/category/img1.jpg") }}" alt="Image">
                                     </div>
-                                    <div class="gallery-col">
+                                    <div class="gallery-col wow fadeInUp" data-wow-delay="0.5s">
                                         <img src="{{ asset("./img/category/img2.jpg") }}" alt="Image">
                                     </div>
-                                    <div class="gallery-col">
+                                    <div class="gallery-col wow fadeInUp" data-wow-delay="0.6s">
                                         <img src="{{ asset("./img/category/img3.jpg") }}" alt="Image">
                                     </div>
                                 </div>
@@ -154,7 +154,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body p-md-5">
-                    <div class="contact-form-box p-0 border-0">
+                    <div class="contact-form-box p-0 border-0 wow fadeIn" data-wow-delay="0.1s">
                         <form id="contact-form" method="post" action="">
                             <div class="row gx-4">
                                 <div class="col-md-6">

@@ -10,54 +10,54 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 mb-5 mb-xl-0">
-                        <div class="thumbnail-img">
+                        <div class="thumbnail-img wow fadeInUp" data-wow-delay="0.1s">
                             <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}">
                         </div>
 
-                        <a href="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}">
+                        <a href="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" class="wow fadeInUp" data-wow-delay="0.3s">
                             <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" alt="" class="img-thumbnail">
                         </a>
                     </div>
                     <div class="col-xl-6">
-                        <h1 class="product-title">CONCEALED FLUSHING CISTERN</h1>
+                        <h1 class="product-title wow slideInUp" data-wow-delay="0.1s">CONCEALED FLUSHING CISTERN</h1>
                         <div class="details">
-                            <label>Cat No.:</label>
-                            <p>C-027</p>
+                            <label class="wow fadeInUp" data-wow-delay="0.1s">Cat No.:</label>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">C-027</p>
                         </div>
                         <div class="details">
-                            <label>Tank Material:</label>
-                            <p>HDPE (High-Density Polyethylene)</p>
+                            <label class="wow fadeInUp" data-wow-delay="0.1s">Tank Material:</label>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">HDPE (High-Density Polyethylene)</p>
                         </div>
                         <div class="details">
-                            <label>Warranty:</label>
-                            <p>7 Years*</p>
-                        </div>
-                        <div class="details">
-                            <ul>
-                                <li>Concealed Cistern (Plastic Tank)​​​​ - 7 Years</li>
-                                <li>Internal Fittings​​​​ - 2 Years</li>
-                            </ul>
-                        </div>
-                        <div class="details">
-                            <label>Capacity:</label>
-                            <p>6 Litres</p>
-                        </div>
-                        <div class="details">
-                            <label>Features:</label>
-                            <p>Concealed Flushing Cistern (Half/Full)</p>
+                            <label class="wow fadeInUp" data-wow-delay="0.1s">Warranty:</label>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">7 Years*</p>
                         </div>
                         <div class="details">
                             <ul>
-                                <li>Aesthetically Designed</li>
-                                <li>High Strength Body</li>
+                                <li class="wow fadeInUp" data-wow-delay="0.1s">Concealed Cistern (Plastic Tank)​​​​ - 7 Years</li>
+                                <li class="wow fadeInUp" data-wow-delay="0.1s">Internal Fittings​​​​ - 2 Years</li>
                             </ul>
                         </div>
                         <div class="details">
-                            <label>Note:</label>
-                            <p>*Actuator Plate, Frame & Extra Fittings not included.</p>
+                            <label class="wow fadeInUp" data-wow-delay="0.1s">Capacity:</label>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">6 Litres</p>
+                        </div>
+                        <div class="details">
+                            <label class="wow fadeInUp" data-wow-delay="0.1s">Features:</label>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">Concealed Flushing Cistern (Half/Full)</p>
+                        </div>
+                        <div class="details">
+                            <ul>
+                                <li class="wow fadeInUp" data-wow-delay="0.1s">Aesthetically Designed</li>
+                                <li class="wow fadeInUp" data-wow-delay="0.1s">High Strength Body</li>
+                            </ul>
+                        </div>
+                        <div class="details">
+                            <label class="wow fadeInUp" data-wow-delay="0.1s">Note:</label>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">*Actuator Plate, Frame & Extra Fittings not included.</p>
                         </div>
 
-                        <div class="mt-4">
+                        <div class="mt-4 wow fadeInUp" data-wow-delay="0.2s">
                             <a href="#" title="View More" class="btn btn-primary-alt" data-bs-toggle="modal" data-bs-target="#productDetailModal">
                                 VIEW MORE
                             </a>
@@ -73,11 +73,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-center mb-5 pb-lg-5">Related Products</h3>
+                        <h3 class="text-center mb-5 pb-lg-5 wow fadeInUp" data-wow-delay="0.1s">Related Products</h3>
 
                         <div class="product-grid">
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" alt="Basin Mixer">
 
@@ -96,7 +96,7 @@
                                 </div>        
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/edge_prime_bib_cock.jpg") }}" alt="Basin Mixer">
 
@@ -115,7 +115,7 @@
                                 </div>       
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/df2bd778bde6d2d676f916a059794d67.jpg") }}" alt="Basin Mixer">
 
@@ -150,14 +150,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body px-md-5 pb-5">
-                    <div class="image">
+                    <div class="image wow fadeIn" data-wow-delay="0.1s">
                         <img src="{{ asset("/img/other/product-detail.png") }}" alt="Product Detail">
                     </div>
 
-                    <h6 class="title-small">Moulded FITTINGS</h6>
-                    <h2 class="title">Elbow</h2>
+                    <h6 class="title-small wow fadeIn" data-wow-delay="0.1s">Moulded FITTINGS</h6>
+                    <h2 class="title wow fadeIn" data-wow-delay="0.1s">Elbow</h2>
 
-                    <div class="table-responsive">
+                    <div class="table-responsive wow fadeIn" data-wow-delay="0.1s">
                         <table class="table table-bordered" cellspacing="0" cellpadding="0">
                             <tbody>
                                 <tr>

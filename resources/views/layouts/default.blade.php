@@ -26,7 +26,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body p-md-5">
-                            <div class="contact-form-box p-0 border-0">
+                            <div class="contact-form-box p-0 border-0 wow fadeIn" data-wow-delay="0.1s">
                                 <form id="contact-form" method="post" action="">
                                     <div class="row gx-4">
                                         <div class="col-md-6">

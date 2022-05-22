@@ -15,7 +15,7 @@
 @section('content')	
     {{-- Start: Hero Slider --}}
         <section class="hero-slider">
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme wow fadeIn" data-wow-delay="0.1s">
                 <div class="item">
                     <figure>
                         <div class="image">
@@ -78,13 +78,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="section-title">Choose Category</h1>
+                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.1s">Choose Category</h1>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="category">
+                        <div class="category wow fadeInUp" data-wow-delay="0.1s">
                             <div class="category-img">
                                 <img src="{{ asset("./img/category/img1.jpg") }}" alt="P.T.M.T. Faucets">
                             </div>
@@ -99,7 +99,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="category">
+                        <div class="category wow fadeInUp" data-wow-delay="0.3s">
                             <div class="category-img">
                                 <img src="{{ asset("./img/category/img2.jpg") }}" alt="Cisterns">
                             </div>
@@ -114,7 +114,7 @@
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="category">
+                        <div class="category wow fadeInUp" data-wow-delay="0.5s">
                             <div class="category-img">
                                 <img src="{{ asset("./img/category/img3.jpg") }}" alt="Showers">
                             </div>
@@ -137,11 +137,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <h1 class="section-title">Optimum Products</h1>
+                        <h1 class="section-title wow fadeInUp" data-wow-delay="0.1s">Optimum Products</h1>
                     </div>
                 </div>
 
-                <div class="product-slider">
+                <div class="product-slider wow fadeInUp" data-wow-delay="0.1s">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
                             <div class="card-product">
@@ -336,7 +336,7 @@
         <section class="query section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="query-banner-item">
                             <div class="query-banner-img">
                                 <a href="tel:9999999999" title="Contact Us">
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="query-banner-item">
                             <div class="query-banner-img">
                                 <a href="#" target="_blank" title="Product Catalogue">

@@ -7,13 +7,13 @@
 @section('content')
     {{-- Start: Hero --}}
         <section class="hero hero-products">
-            <div class="container">
+            <div class="container wow fadeIn" data-wow-delay="0.1s">
                 <div class="row">
                     <div class="col-12">
                         <div class="d-md-flex align-items-center justify-content-between">
-                            <h1>Products</h1>
+                            <h1 class="wow slideInDown" data-wow-delay="0.1s">Products</h1>
 
-                            <nav aria-label="breadcrumb">
+                            <nav aria-label="breadcrumb" class="wow fadeInUp" data-wow-delay="0.1s">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="{{ route('index') }}" title="Home">Home</a></li>
                                     <li class="breadcrumb-item active" aria-current="page">Products</li>
@@ -33,7 +33,7 @@
                     <div class="col-12">
                         <div class="product-grid">
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" alt="Basin Mixer">
     
@@ -52,7 +52,7 @@
                                 </div>        
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.3s"">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/edge_prime_bib_cock.jpg") }}" alt="Basin Mixer">
     
@@ -71,7 +71,7 @@
                                 </div>       
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/df2bd778bde6d2d676f916a059794d67.jpg") }}" alt="Basin Mixer">
     
@@ -90,7 +90,7 @@
                                 </div>  
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/superb_bib_cock.jpg") }}" alt="Basin Mixer">
     
@@ -109,7 +109,7 @@
                                 </div> 
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" alt="Basin Mixer">
     
@@ -128,7 +128,7 @@
                                 </div> 
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/edge_prime_bib_cock.jpg") }}" alt="Basin Mixer">
     
@@ -147,7 +147,7 @@
                                 </div> 
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" alt="Basin Mixer">
     
@@ -166,7 +166,7 @@
                                 </div>        
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/edge_prime_bib_cock.jpg") }}" alt="Basin Mixer">
     
@@ -185,7 +185,7 @@
                                 </div>       
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/df2bd778bde6d2d676f916a059794d67.jpg") }}" alt="Basin Mixer">
     
@@ -204,7 +204,7 @@
                                 </div>  
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.1s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/superb_bib_cock.jpg") }}" alt="Basin Mixer">
     
@@ -223,7 +223,7 @@
                                 </div> 
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.3s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/center_hole_basin_mixer_gemini.jpg") }}" alt="Basin Mixer">
     
@@ -242,7 +242,7 @@
                                 </div> 
                             </div>
                             <div class="product-col">
-                                <div class="card-product">
+                                <div class="card-product wow fadeInUp" data-wow-delay="0.5s">
                                     <div class="product-img">
                                         <img src="{{ asset("/img/products/edge_prime_bib_cock.jpg") }}" alt="Basin Mixer">
     
