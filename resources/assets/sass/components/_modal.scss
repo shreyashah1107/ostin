@@ -1,0 +1,20 @@
+.welcome-modal {
+    .modal-body {
+        padding: 30px 70px 50px 70px;
+        text-align: center;
+
+        img {
+            height: 60px;
+        }
+
+        h1 {
+            color: $body-color;
+            margin: 40px 0 20px;
+        }
+
+        p {
+            max-width: 90%;
+            margin: 0 auto;
+        }
+    }
+}

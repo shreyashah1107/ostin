@@ -18,6 +18,29 @@
             </div>
         </div>
 
+        <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#welcomeModal').modal('show');
+            });
+        </script>
+
+        {{-- Welcome Modal --}}
+        <div id="welcomeModal" class="modal fade welcome-modal" tabindex="-1">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="{{ asset("./img/logo/logo.png") }}" class="img-fluid" alt="Logo">
+
+                        <h1>Welcome to Ostin</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, eos omnis repudiandae ex dolorum laborum quae accusamus pariatur quo ad ut, ipsam corrupti, ab asperiores. Quam dolor nulla cumque non!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Download Brochure Modal -->
             <div class="modal fade" id="downloadBrochureModal" tabindex="-1" aria-labelledby="downloadBrochureModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg modal-dialog-centered">
