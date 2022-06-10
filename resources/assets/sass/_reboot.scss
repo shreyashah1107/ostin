@@ -1,3 +1,8 @@
+.wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
 body {
     color: $body-color;
     font-weight: 400;
@@ -31,6 +36,12 @@ ol {
     font-size: 40px;
     line-height: 1.4;
     margin-bottom: 50px;
+}
+
+@include media-breakpoint-down(lg) {
+    .wrapper {
+        max-width: 100%;
+    }
 }
 
 @include media-breakpoint-down(md) {

@@ -43,21 +43,22 @@
 }
 
 .product-listing {
-    padding: 150px 0 200px;
-    position: relative;
-    overflow: hidden;
+    padding: 100px 0;
+    background: $secondary;
+    // position: relative;
+    // overflow: hidden;
 
-    &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 60px;
-        bottom: 60px;
-        background: $secondary;
-        transform: skewY(-3deg);
-        z-index: -1;
-    } 
+    // &:before {
+    //     content: "";
+    //     position: absolute;
+    //     left: 0;
+    //     right: 0;
+    //     top: 60px;
+    //     bottom: 60px;
+    //     background: $secondary;
+    //     transform: skewY(-3deg);
+    //     z-index: -1;
+    // } 
 
     .card-product {
         margin: 0 15px;
