@@ -72,14 +72,77 @@
                                             <li class="menu-item"><a href="{{ route('about-us') }}" title="About Us">About Us</a></li>                                        
                                             <li class="menu-item menu-item-has-children">
                                                 <a href="{{ route('products') }}" title="Product">Product</a>
+
                                                 <ul class="sub-menu">
                                                     <li class="menu-item menu-item-has-children">
-                                                        <a href="{{ route('product-category') }}" title="Category 1">Category 1</a>
+                                                        <a href="{{ route('product-category') }}" title="Category 1">Product Name</a>
 
                                                         <ul class="sub-menu">
-                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 1">Sub Category 1</a></li>
-                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 1">Sub Category 1</a></li>
-                                                            <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 1">Sub Category 1</a></li>
+                                                            <li class="menu-item menu-item-has-children has-image">
+                                                                <a href="{{ route('product-subcategory') }}" title="Sub Category 1">
+                                                                    <span>
+                                                                        <span class="img-wrap">
+                                                                            <img src="https://www.wackerneuson.com/fileadmin/user_upload/product-navigation/product-group-icons/wn_prod-nav01-01_internal-vibrators.png" alt="Internal Vibrators">
+                                                                        </span>
+                                                                        <span class="text">Internal Vibrators</span>
+                                                                    </span>
+                                                                </a>
+
+                                                                <ul class="sub-menu">
+                                                                    <li class="menu-item menu-item-has-children">
+                                                                        <a href="{{ route('product-subcategory') }}" title="Sub Category 2">Sub Category 2</a>
+
+                                                                        <ul class="sub-menu">
+                                                                            <li class="menu-item has-image">
+                                                                                <a href="{{ route('product-subcategory') }}" title="Sub Category 2">
+                                                                                    <span>
+                                                                                        <span class="img-wrap">
+                                                                                            <img class="transp lazy" src="https://www.wackerneuson.com/fileadmin/user_upload/product-navigation/product-group-icons/wn_prod-nav01-01_internal-vibrators.png" alt="Internal Vibrators">
+                                                                                        </span>
+                                                                                        <span class="text">Internal Vibrators</span>
+                                                                                    </span>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item-has-children">
+                                                                        <a href="{{ route('product-subcategory') }}" title="Sub Category 2">Sub Category 2</a>
+                                                                        <ul class="sub-menu">
+                                                                            <li class="menu-item has-image">
+                                                                                <a href="{{ route('product-subcategory') }}" title="Sub Category 2">
+                                                                                    <span>
+                                                                                        <span class="img-wrap">
+                                                                                            <img src="https://www.wackerneuson.com/fileadmin/user_upload/product-navigation/product-group-icons/wn_prod-nav03-01_hammer.png" alt="Breakers">
+                                                                                        </span>
+                                                                                        <span class="text">Breakers</span>
+                                                                                    </span>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menu-item"><a href="{{ route('product-subcategory') }}" title="Sub Category 2">Sub Category 2</a></li>
+                                                                </ul>
+                                                            </li>
+                                                            <li class="menu-item has-image">
+                                                                <a href="{{ route('product-subcategory') }}" title="Sub Category 1">
+                                                                    <span>
+                                                                        <span class="img-wrap">
+                                                                            <img src="https://www.wackerneuson.com/fileadmin/user_upload/product-navigation/product-group-icons/wn_prod-nav03-01_hammer.png" alt="Breakers">
+                                                                        </span>
+                                                                        <span class="text">Breakers</span>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="menu-item has-image">
+                                                                <a href="{{ route('product-subcategory') }}" title="Sub Category 1">
+                                                                    <span>
+                                                                        <span class="img-wrap">
+                                                                            <img class="transp lazy" src="https://www.wackerneuson.com/fileadmin/user_upload/product-navigation/product-group-icons/wn_prod-nav01-01_internal-vibrators.png" alt="Internal Vibrators">
+                                                                        </span>
+                                                                        <span class="text">Internal Vibrators</span>
+                                                                    </span>
+                                                                </a>
+                                                            </li>
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item menu-item-has-children">
@@ -105,9 +168,6 @@
                                         </ul>
                                     </div>
                                 </div>
-                                {{-- <div class="download-link">
-                                    <a href="#" target="_blank" title="Download Brochure" data-bs-toggle="modal" data-bs-target="#downloadBrochureModal">get A BROCHURE</a>
-                                </div> --}}
                                 <div class="hamburger-menu">
                                     <div class="bar"></div>
                                 </div>
