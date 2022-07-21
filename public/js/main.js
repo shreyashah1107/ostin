@@ -16,6 +16,43 @@
             $('body').removeClass('open-menu');
             $('.hamburger-menu .bar').removeClass('animate');
         }
+
+        else {
+            $('#cd-primary-nav > li').hover(function() {
+                $whidt_item = $(this).width();
+                $whidt_item = $whidt_item-8;
+
+                $prevEl = $(this).prev('li');
+                $preWidth = $(this).prev('li').width();
+                var pos = $(this).position();
+                pos = pos.left+4;
+            });
+
+            $('.hamburger-menu').on('click', function() {
+                $('.hamburger-menu .bar').toggleClass('animate');
+                if($('body').hasClass('open-menu')){
+                    $('body').removeClass('open-menu');
+                }else{
+                    $('body').toggleClass('open-menu');
+                }
+            });
+
+            $('header .menu-container .menu .menu-item-has-children ul').each(function(index) {
+                $(this).append('<li class="back"><a href="#">Back</a></li>');
+            });
+
+            $('header .menu-container .menu .menu-item-has-children > a').on('click', function(e) {
+                e.preventDefault();
+                if(size <= 1200){
+                    $(this).next('ul').addClass('open-sub');
+                }
+            });
+
+            $('header .menu-container .menu .menu-item-has-children ul .back').on('click', function(e) {
+                e.preventDefault();
+                $(this).parent('ul').removeClass('open-sub');
+            });
+        }
     };
 
     $(document).keyup(function(e) {
@@ -27,42 +64,7 @@
             });
         }
     });
-
-    $('#cd-primary-nav > li').hover(function() {
-        $whidt_item = $(this).width();
-        $whidt_item = $whidt_item-8;
-
-        $prevEl = $(this).prev('li');
-        $preWidth = $(this).prev('li').width();
-        var pos = $(this).position();
-        pos = pos.left+4;
-    });
-
-    $('.hamburger-menu').on('click', function() {
-        $('.hamburger-menu .bar').toggleClass('animate');
-        if($('body').hasClass('open-menu')){
-            $('body').removeClass('open-menu');
-        }else{
-            $('body').toggleClass('open-menu');
-        }
-    });
-
-    $('header .menu-container .menu .menu-item-has-children ul').each(function(index) {
-        $(this).append('<li class="back"><a href="#">Back</a></li>');
-    });
-
-    $('header .menu-container .menu .menu-item-has-children > a').on('click', function(e) {
-        e.preventDefault();
-        if(size <= 1200){
-            $(this).next('ul').addClass('open-sub');
-        }
-    });
-
-    $('header .menu-container .menu .menu-item-has-children ul .back').on('click', function(e) {
-        e.preventDefault();
-        $(this).parent('ul').removeClass('open-sub');
-    });
-
+  
     $(document).ready(function(){
         windowSize();
     });
